@@ -1,1 +1,61 @@
-
+{
+  "schemaVersion": 1,
+  "manifestVersion": 1,
+  "generatedAt": "2026-08-08T00:00:00Z",
+  "tools": [
+    {
+      "id": "demo-username",
+      "name": "Username Checker Demo",
+      "description": "Demo tool for testing the MYTOOLS remote tool registry.",
+      "version": "1.0.0",
+      "author": "Ahmed Sabah",
+      "category": "USERNAME",
+      "runtime": "UTILITY",
+      "icon": "",
+      "featured": true,
+      "verified": false,
+      "status": "ACTIVE",
+      "toolPath": "",
+      "entryPoint": "",
+      "requirements": [],
+      "inputs": [
+        {
+          "type": "USERNAME",
+          "name": "username",
+          "label": "Username",
+          "required": true,
+          "placeholder": "Enter username"
+        }
+      ],
+      "changelog": "Initial demo release.",
+      "updatedAt": "2026-08-08T00:00:00Z"
+    },
+    {
+      "id": "demo-text",
+      "name": "Text Analyzer Demo",
+      "description": "Demo text input tool for testing dynamic inputs.",
+      "version": "1.0.0",
+      "author": "Ahmed Sabah",
+      "category": "UTILITIES",
+      "runtime": "UTILITY",
+      "icon": "",
+      "featured": false,
+      "verified": false,
+      "status": "ACTIVE",
+      "toolPath": "",
+      "entryPoint": "",
+      "requirements": [],
+      "inputs": [
+        {
+          "type": "TEXT",
+          "name": "text",
+          "label": "Text",
+          "required": true,
+          "placeholder": "Enter text"
+        }
+      ],
+      "changelog": "Initial demo release.",
+      "updatedAt": "2026-08-08T00:00:00Z"
+    }
+  ]
+}
