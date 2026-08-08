@@ -5,7 +5,7 @@
   "tools": [
     {
       "id": "demo-username",
-      "name": "Username Checker Demo",
+      "name": "Username Checker عربي",
       "description": "Demo tool for testing the MYTOOLS remote tool registry.",
       "version": "1.0.0",
       "author": "Ahmed Sabah",
